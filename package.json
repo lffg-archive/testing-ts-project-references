@@ -1,0 +1,19 @@
+{
+  "name": "@lffg/testing-ts-project-references",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "eslint": "6.x",
+    "eslint-config-lffg": "^19.0.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
+  },
+  "prettier": "eslint-config-lffg/prettier",
+  "eslintConfig": {
+    "extends": "lffg"
+  }
+}
